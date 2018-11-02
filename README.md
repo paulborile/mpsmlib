@@ -1,4 +1,4 @@
-# mpsmlib
+# mpsm library
 Multi Pattern String Matching Library - use the best algorithm based on the pattern numerosity/size and text size
 
 Mpsm library is a tentative to group all well known (and less known) multi pattern string search algorithms into a single library so that you don't have to benchmark and choose which algorithm works best depending on your specific set of patterns and you average text lenght. The library will attempt to address small, medium, large and huge pattern sets and benchmark how they behave on your particular hw, setting the correct algorithm foreach pattern size. The following algs will be used :
